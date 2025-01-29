@@ -35,26 +35,28 @@ div {
     border: 3px solid #FFFFFF;
 }
 
-.introduction {
+div .introduction {
     border-radius: 15px;
     margin-top: 15px;
     line-height: 2;
 }
 
-.red {
+div .red {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 10px;
+    border-bottom: 2px;
     border-left: 5px;
+    /* A  border of 2px on the bottom and 5px on the left; */
 }
 
-.blue {
+div .blue {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
     border-right: 2px;
     border-top: 5px;
+    /* A  border of 5px on the right and 2px on the top; */
 
     &>h2 {
         color: #C4C4C4;
@@ -65,24 +67,26 @@ div {
     }
 }
 
-.yellow {
+div .yellow {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
     border-bottom: 2px;
     border-left: 5px;
+    /* A border of 2px on the bottom and 5px on the left; */
 
     &>p {
         color: #707070;
     }
 }
 
-.green {
+div .green {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
     border-right: 5px;
     border-top: 2px;
+    /* A  border of 5px on the right and 2px on the top; */
 }
 
 footer {
