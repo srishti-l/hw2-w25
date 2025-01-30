@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, verdana;
+    font-family: Arial, Verdana;
     background-color: #000000;
     color: #FFFFFF;
     margin: 20px 20px 0px 20px;
@@ -45,8 +45,8 @@ div {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-top: 2px;
-    border-right: 5px;
+    border-bottom: 2px;
+    border-left: 5px;
     /* A  border of 2px on the bottom and 5px on the left; */
 }
 
@@ -54,7 +54,7 @@ div {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-left: 2px;
+    border-right: 2px;
     border-top: 5px;
     /* A  border of 5px on the right and 2px on the top; */
 
@@ -71,8 +71,8 @@ div {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-top: 2px;
-    border-right: 5px;
+    border-bottom: 2px;
+    border-left: 5px;
     /* A border of 2px on the bottom and 5px on the left; */
 
     &>p {
@@ -84,8 +84,8 @@ div {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-left: 5px;
-    border-bottom: 2px;
+    border-right: 5px;
+    border-top: 2px;
     /* A  border of 5px on the right and 2px on the top; */
 }
 
